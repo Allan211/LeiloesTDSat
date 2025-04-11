@@ -219,7 +219,8 @@ public class listagemVIEW extends javax.swing.JFrame {
                 });
             }
         } catch (Exception e) {
+            System.out.println( "Erro ao efetuar consulta: " + e.getMessage());
         }
-    
     }
+    
 }
